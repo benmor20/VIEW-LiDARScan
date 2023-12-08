@@ -1,0 +1,8 @@
+trimesh
+pyglet
+pyglet<2
+scipy
+numpy
+matplotlib
+libigl
+rtree
