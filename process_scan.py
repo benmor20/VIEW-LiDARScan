@@ -239,7 +239,7 @@ def nvps_from_eye_pos(mesh: trimesh.primitives.Trimesh, eye_pos: np.ndarray):
 
 
 def main():
-    src = 'data/2011HondaOdysseyScan2.glb'
+    src = 'data/2011HondaOdysseyScan.glb'
     mesh: trimesh.primitives.Trimesh = trimesh.load(src, force='mesh')
     print('Loaded mesh')
     remove_windows(mesh)
